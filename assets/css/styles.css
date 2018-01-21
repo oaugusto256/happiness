@@ -1,0 +1,78 @@
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+ 	margin: unset;
+	background-color: #dbdbdb;
+
+/*	background: #43cea2; 
+	background: -webkit-linear-gradient(to right, #185a9d, #43cea2);
+	background: linear-gradient(to right, #185a9d, #43cea2);*/
+}
+
+ul {
+	list-style: none;
+	margin: unset;
+}
+
+.nav {
+	display: flex;
+	min-height: 50px;
+	background-color: #f4f4f4;
+}
+
+.nav-logo {
+	padding: 25px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.nav-item {
+	padding: 25px;
+	font-size: 25px;
+}
+
+.nav-item-first {
+	padding: 25px;
+	font-size: 25px;
+	margin-left: auto;
+}
+
+.nav-item-last {
+	padding: 25px;
+	font-size: 25px;
+	margin-right: auto;
+}
+
+.card {
+	width: 100%;
+	max-width: 1000px;
+	margin: 0 auto;
+	border-radius: 5px;
+
+	background-color: #fcfcfc;
+
+	-webkit-box-shadow: 0px 0px 50px -3px rgba(58,58,58,0.25);
+	-moz-box-shadow: 0px 0px 50px -3px rgba(58,58,58,0.25);
+	box-shadow: 0px 0px 50px -3px rgba(58,58,58,0.25);
+}
+
+.card-title {
+	margin-top: 30px;
+
+	font-size: 100px;
+	font-weight: bolder;
+	text-transform: uppercase;
+
+	background: -webkit-linear-gradient(#eee, #333);
+	  -webkit-background-clip: text;
+	  -webkit-text-fill-color: transparent;
+}
+
+

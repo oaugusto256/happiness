@@ -23,20 +23,24 @@ ul {
 	margin: unset;
 }
 
+footer {
+	height: 150px;
+}
+
 .light-orange {
-	color: #FFC93C;
+	color: #FFC93C  !important;
 }
 
 .mid-orange {
-	color: #FF9A3C;
+	color: #FF9A3C  !important;
 }
 
 .orange {
-	color: #FF6F3C;
+	color: #FF6F3C  !important;
 }
 
 .navy-blue {
-	color: #155263;
+	color: #155263 !important;
 }
 
 .nav {
@@ -53,8 +57,6 @@ ul {
 
 .nav-logo {
 	padding: 25px;
-	margin-left: auto;
-	margin-right: auto;
 	font-size: 50px;
 
 	color: #FF6F3C;
@@ -76,13 +78,30 @@ ul {
 
 .flex-box {
 	display: flex;
+}
 
-	width: 100%;
-	height: 100%;
+.width-10 {
+	width: 10%;
+}
+
+.width-25 {
+	width: 25%;
 }
 
 .width-30 {
 	width: 30%;
+}
+
+.width-40 {
+	width: 40%;
+}
+
+.width-50 {
+	width: 50%;
+}
+
+.width-60 {
+	width: 60%;
 }
 
 .width-70 {
@@ -101,15 +120,54 @@ ul {
 	padding-top: 15vh;
 }
 
-.card {
-	margin: 20px;
+.card-country {
+	height: 75px;
+	margin: 10px 20px;
 	background-color: #f9f9f9;
-	border-radius: 2.5px;
+	border-radius: 5px;
+	display: flex;
+
+	-webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+}
+
+.card-name {
+	margin: unset;
+	margin-top: 20px;
+	font-size: 30px;
+	text-align: center;
+	font-weight: bolder;
+	color: #FF6F3C; 
+}
+
+.card-flag {
+	height: 100%;
+	width: 100%;
+	background-size: auto 100px;
+	background-repeat: no-repeat;
+
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+}
+
+.card-button {
+	height: 30px;
+	width: 30px;
+	border-radius: 50%;
+	font-size: 20px;
+	font-weight: bolder;
+	margin-left: 20px;
+	margin-top: 25px;
+	background-color: transparent;
+	color: #155263;
+	border: 3px solid  #155263;
 }
 
 .card-header {
+	padding-top: 20px;
 	margin: 20px;
-	height: 75%;
+	min-height: 55vh;
 	border-radius: 5px;
 	color: #0d3642;
 	background-image: url('../img/header-img.jpg');
